@@ -1,0 +1,51 @@
+.form-log {
+    width: 100px;
+    padding: 10px 1px 0 0;
+    margin: 1px auto;
+    float: right;
+    overflow: hidden;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dedede #bababa #aaa #bababa;
+    box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    border-radius: 10px;    
+    background-color: #f6f6f6;
+    background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+}
+
+ 
+ 
+
+.form-log #connect-user {
+    float: right;    
+    border: 1px solid #6666FF;
+    height: 20px;
+    width: 100px;
+    padding: 0;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #fafafa;
+    text-transform: uppercase;    
+    background-color: #FF6600;
+    background-image: linear-gradient(top, #31b2c3, #0483a0);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;      
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
+}
+  
+.form-log #connect-user:hover,
+.form-log #connect-user:focus {       
+    background-color: #CC6600;
+    background-image: linear-gradient(top, #0483a0, #31b2c3);
+}   
+  
+.form-log #connect-user:active {
+    outline: 0;    
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
+}
+  
+.form-log #connect-user::-moz-focus-inner {
+    border: 0;
+}
