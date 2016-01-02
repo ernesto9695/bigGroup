@@ -11,7 +11,7 @@
    	    private $db_password;
    	    private $pdo;
    	
-	   	function __construct($db_name, $db_host = 'localhost', $db_user = 'root', $db_password = 'ernestoroot'){
+	   	function __construct($db_name, $db_host = 'localhost', $db_user = 'root', $db_password = ''){
 
 	   		 $this->db_name = $db_name;
 	   		 $this->db_host = $db_host;
