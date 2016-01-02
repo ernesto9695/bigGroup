@@ -1,6 +1,6 @@
 <?php
     
-     $pdo = new PDO('mysql:dbname=bigcodingdatabase; host:localhost', 'root','ernestoroot');
+     $pdo = new PDO('mysql:dbname=bigcodingdatabase; host:localhost', 'root','');
 
      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
      
